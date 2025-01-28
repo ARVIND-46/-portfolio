@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border: 2px solid #000;
+    background-color: rgb(219, 196, 223);
+    position: sticky;
+    top: 0;
+    border-radius: 2px;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+   
+}
+.navlinks a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(21, 15, 1);
+    padding: 10px 20px;
+    border-radius: 15px;
+    transform: scale(1.05);
+
+}
+.navlinks a:hover{
+    color: #fff;
+    background-color: rgb(108, 46, 119);
+   
+
+}
+.navlinks li {
+    padding: 15px;
+    color:rgb(108, 46, 119)
+}
+/* containers */
+
+.profilecontainer{
+    background-image: url(./images/bgimg1.png);
+    text-align: center;
+    padding:20px;
+    height: 75vh;
+    color: #add;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    
+    
+    
+}
+.profilecontainer img{
+    border-radius: 50%;
+    height: 200px  ;  
+    border:5px solid #add;
+}
+.profilecontainer img:hover {
+    transform: scale(1.1);
+}
+
+.profilecontainer h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:#add
+}
+.contactimg img{
+    border-radius: 50%;
+    height: 45px;
+    padding: 10px;
+}
+.contactimg img:hover{
+background-color: wheat;
+
+}
+/* About me container */
+.aboutmecontainer{
+    border: 2px solid #555;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 30px ;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    /* max-width: 800px; */
+}
+.aboutmecontainer h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: oblique;
+}
+.aboutmecontainer p{
+    size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* project Container */
+
+.projectContainer{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(195, 130, 45);
+
+    
+    
+}
+.projectContainer a{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #000;
+    transform: rotateX('angle');
+}
+/* .projectContainer h1{
+    text-align: center;
+} */
+
+ /* Achevements  */
+ .achivementsContainer {
+    display: flex;
+    
+ }
+ .achivementsContainer h1{
+    text-align: left;
+    padding-left: 25px;
+ }
+ .box{
+   
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(160, 80, 169);
+    border: 2px dotted black;
+    border-radius: 20px;
+    width: 25%;
+ }
+ .box li{
+    list-style: none;
+
+
+ }
+ .contactContainer {
+    border: 2px solid #ccc;
+    background-color: #f4f4f9; 
+    border-radius: 15px; 
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.contactList {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+ .contactContainer h1 {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 32px;
+    color: #333; 
+    margin-bottom: 15px;
+}
+.resume {
+    margin-top: 20px;
+}
+.resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #212171; 
+    color: #fff; 
+    font-size: 18px;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contactContainer p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #555; 
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+
+ /* footer css */
+footer{
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+}
